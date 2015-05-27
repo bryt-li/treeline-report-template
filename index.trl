@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ROOT item="y" tlversion="1.4.1"
+line0="{*Name*}"
+line1="\documentclass[12pt, nofonts]{ctexrep}"
+line2="\usepackage{fontspec, xunicode, xltxtra, titlesec, graphicx, fancyhdr, hyperref, hypcap, enumitem, pdflscape, geometry}"
+line3="%add navigation tree to pdf document"
+line4="\hypersetup{pdftex,colorlinks=true,allcolors=blue}"
+line5="\setCJKmainfont{Microsoft YaHei}"
+line6="\makeatletter"
+line7="\g@addto@macro{\CTEX@section@format}{\raggedright}"
+line8="\makeatother"
+line9="\begin{document}"
+line10="\pagestyle{fancy}"
+line11="\fancyhf{}"
+line12="\lhead{{*LHead*}}"
+line13="\rhead{{*RHead*}}"
+line14="\cfoot{第 \thepage 页}"
+line15="\title{{*Name*}}"
+line16="\maketitle"
+line17="\tableofcontents"
+line18="{*DescendantOutput*}"
+line19="\end{document}">
+<Name type="Text" ref="y">移动OA办公自动化系统及安全建设方案</Name>
+<LHead type="Text">移动OA办公自动化及安全系统建设方案</LHead>
+<RHead type="Text">江西省交通运输厅</RHead>
+<Chapter item="y"
+line0="{*Name*}"
+line1="\chapter{{*Name*}} \label{chapter:{*Name*}}"
+icon="folder_2">
+<Name type="Text" ref="y">项目概述</Name>
+<Section item="y"
+line0="{*Name*}"
+line1="\section{{*Name*}} \label{section:{*Name*}}"
+icon="title-1">
+<Name type="Text" ref="y">项目名称</Name>
+<Paragraph item="y"
+line0="{*Name*}"
+line1="{*Paragraph*}"
+icon="paragraph">
+<Name type="Text" html="y" ref="y">江西省交通运输厅移动OA办公自动化及安全系统</Name>
+<Paragraph type="Text" html="y" lines="30">江西省交通运输厅移动OA办公自动化及安全系统</Paragraph>
+</Paragraph>
+</Section>
+<Section item="y">
+<Name>项目建设单位及负责人、项目责任人</Name>
+<Paragraph item="y">
+<Name>江西省交通运输厅移动OA办公自动化及安全系统</Name>
+<Paragraph>项目建设单位：江西省交通科技信息中心</Paragraph>
+</Paragraph>
+<Paragraph item="y">
+<Name>项目建设单位负责人：</Name>
+<Paragraph>项目建设单位负责人：</Paragraph>
+</Paragraph>
+<Paragraph item="y">
+<Name>项目责任人：</Name>
+<Paragraph>项目责任人：</Paragraph>
+</Paragraph>
+</Section>
+<Section item="y">
+<Name>初步设计及概算编制单位</Name>
+<Paragraph item="y">
+<Name>湖南浩基信息科技有限公司</Name>
+<Paragraph>湖南浩基信息科技有限公司</Paragraph>
+</Paragraph>
+</Section>
+<Section item="y">
+<Name>初步设计及概算编制依据</Name>
+<Paragraph item="y">
+<Name>参见附录</Name>
+<Paragraph>参见\ref{appendix:初步设计及概算编制依据} 初步设计及概算编制依据</Paragraph>
+</Paragraph>
+</Section>
+<Section item="y">
+<Name>建设目标、规模、内容、建设周期</Name>
+<Subsection item="y"
+line0="{*Name*}"
+line1="\subsection{{*Name*}} \label{subsection:{*Name*}}"
+icon="title-2">
+<Name type="Text" ref="y">建设目标</Name>
+</Subsection>
+<Subsection item="y">
+<Name>建设内容</Name>
+</Subsection>
+<Subsection item="y">
+<Name>建设规模</Name>
+<Paragraph-List item="y"
+line0="{*Name*}"
+line1="{*Paragraph*}"
+line2="\begin{enumerate}[label=\arabic*.,start=1]"
+line3="{*DescendantOutput*}"
+line4="\end{enumerate}"
+childtype="ListedParagraph"
+icon="paragraph-list">
+<Name type="Text" html="y" ref="y">本项目计划建设达到以下规模：</Name>
+<Paragraph type="Text" html="y" lines="30">本项目计划建设达到以下规模：</Paragraph>
+<ListedParagraph item="y"
+line0="{*Name*}"
+line1="\item {*Paragraph*}">
+<Name type="Text" ref="y">使用范围方面</Name>
+<Paragraph type="Text" html="y" lines="30">使用范围方面：应用范围覆盖全省各级交通运输部门。包括省交通运输厅、厅直属行业管理局、企事业单位和市州交通局及其下级机构或单位。</Paragraph>
+</ListedParagraph>
+<ListedParagraph item="y">
+<Name>业务范围方面</Name>
+<Paragraph>业务范围方面：交通运输各级部门的行政办公、行政管理、对外对内信息服务、领导决策支持、无纸化办公以及电子审批流程等等。</Paragraph>
+</ListedParagraph>
+<ListedParagraph item="y">
+<Name>内容方面</Name>
+<Paragraph>内容方面：建设移动OA办公自动化系统、安全数据交换系统。</Paragraph>
+</ListedParagraph>
+</Paragraph-List>
+</Subsection>
+<Subsection item="y">
+<Name>建设周期</Name>
+<Paragraph item="y">
+<Name>本工程的工期为8个月，开工年为2015年，完成年为2016年。</Name>
+<Paragraph>本工程的工期为6个月，开工年为2015年，完成年为2016年。</Paragraph>
+</Paragraph>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>总投资及资金来源</Name>
+<Paragraph item="y">
+<Name>本系统工程概算资金600万元</Name>
+<Paragraph>本系统工程概算资金600万元。</Paragraph>
+</Paragraph>
+</Section>
+<Section item="y">
+<Name>效益及风险</Name>
+<Paragraph-List item="y">
+<Name>对本项目进行综合效益和风险评估的结论如下：</Name>
+<Paragraph>对本项目进行综合效益和风险评估的结论如下：</Paragraph>
+<ListedParagraph item="y">
+<Name>经济效益方面</Name>
+<Paragraph>经济效益方面，提高社会公众和工作人员申请和办理的效率，节省人力和物力、降低办事成本。</Paragraph>
+</ListedParagraph>
+<ListedParagraph item="y">
+<Name>社会效益方面</Name>
+<Paragraph>社会效益方面，本项目的实施，可降低进政府办事的“门槛”，切实实现政府职能向社会服务、公共管理和市场监督方面的转化，树立交通运输部门服务型政府的良好形象。</Paragraph>
+</ListedParagraph>
+</Paragraph-List>
+<Paragraph item="y">
+<Name>详细参见</Name>
+<Paragraph>详细的风险和效益分析请参见：第\ref{chapter:风险及效益分析}章风险及效益分析</Paragraph>
+</Paragraph>
+</Section>
+<Section item="y">
+<Name>主要结论与建议</Name>
+<Paragraph item="y">
+<Name>提升水平</Name>
+<Paragraph>该项目是《江西省交通运输信息化“十二五”发展规划》中的省级行业性重点工程之一，目前我省交通行业政务服务信息化建设基础比较薄弱。因此，通过实施该项目的建设，提升我省交通运输行业管理水平，极大改善向社会公众和企业服务质量。</Paragraph>
+</Paragraph>
+<Paragraph item="y">
+<Name>可行</Name>
+<Paragraph>随着信息化的发展，本工程所涉及的关键技术、软硬件设备等均采用现行主流的成熟技术，因此在技术上是可行的。另外，本工程由江西省交通运输厅统筹规划，最大限度实现资源共享，尤其是基础设施共享，从而降低了总体投资成本，减轻了财政负担，所以经济上可行。</Paragraph>
+</Paragraph>
+<Paragraph item="y">
+<Name>注意事项</Name>
+<Paragraph>为降低本项目因涉及部门多、建设任务重带来的工程建设风险，建议项目建设单位明确工程建设部门，落实职责分工，并明确项目监督责任人，负责监督各建设工作的落实情况。项目建设单位明确各级、各单位协调人，制定相关工作协调制度和工程建设信息汇报制度。为保障工程建设成果的持续稳定运行，应建立系统运行维护资金保障的长效机制，并配合建立运行维护资金筹措和管理制度。</Paragraph>
+</Paragraph>
+</Section>
+</Chapter>
+<Chapter item="y">
+<Name>test</Name>
+<Paragraph item="y">
+<Name>New</Name>
+<Paragraph>NewNewNewNewNewNewNewNewoldoldoldoldoldoldold</Paragraph>
+</Paragraph>
+</Chapter>
+<Chapter item="y">
+<Name>New</Name>
+<Chapter item="y">
+<Name>New</Name>
+<Chapter item="y">
+<Name>New</Name>
+<Paragraph item="y">
+<Name>test</Name>
+<Paragraph>asdf;alkjsdf;asdflkjhlkjhlkjhlk
+lkjhaskljdhfkajsdf
+lkjhaskdf</Paragraph>
+</Paragraph>
+</Chapter>
+</Chapter>
+</Chapter>
+<Chapter item="y">
+<Name>需求分析</Name>
+<Section item="y">
+<Name>现状分析</Name>
+<Subsection item="y">
+<Name>基础设施情况</Name>
+</Subsection>
+<Subsection item="y">
+<Name>应用系统建设情况</Name>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>业务需求分析</Name>
+<Subsection item="y">
+<Name>移动的自动化办公需求</Name>
+</Subsection>
+<Subsection item="y">
+<Name>办公系统的安全需求</Name>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>系统用户分析</Name>
+</Section>
+<Section item="y">
+<Name>信息量指标</Name>
+</Section>
+<Section item="y">
+<Name>系统性能指标</Name>
+<Subsection item="y">
+<Name>系统处理能力要求</Name>
+</Subsection>
+<Subsection item="y">
+<Name>网络性能要求</Name>
+</Subsection>
+<Subsection item="y">
+<Name>可用性要求</Name>
+</Subsection>
+<Subsection item="y">
+<Name>可扩展性要求</Name>
+</Subsection>
+<Subsection item="y">
+<Name>易用性要求</Name>
+</Subsection>
+<Subsection item="y">
+<Name>可靠性要求</Name>
+</Subsection>
+<Subsection item="y">
+<Name>安全保密性要求</Name>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>与其它项目的边界关系</Name>
+</Section>
+</Chapter>
+<Chapter item="y">
+<Name>总体建设方案</Name>
+<Section item="y">
+<Name>总体设计原则</Name>
+</Section>
+<Section item="y">
+<Name>总体目标与分期目标</Name>
+</Section>
+<Section item="y">
+<Name>总体建设任务与建设步骤</Name>
+<Subsection item="y">
+<Name>总体建设任务</Name>
+</Subsection>
+<Subsection item="y">
+<Name>分阶段建设步骤与周期</Name>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>总体架构</Name>
+</Section>
+<Section item="y">
+<Name>技术路线</Name>
+<Subsection item="y">
+<Name>基于云计算的部署模式</Name>
+</Subsection>
+<Subsection item="y">
+<Name>基于统一应用支撑平台建设相关应用</Name>
+</Subsection>
+<Subsection item="y">
+<Name>基于XML的数据表示</Name>
+</Subsection>
+<Subsection item="y">
+<Name>基于SOA的应用集成</Name>
+</Subsection>
+<Subsection item="y">
+<Name>基于权限分级管理的思想</Name>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>引用关键技术</Name>
+</Section>
+<Section item="y">
+<Name>系统安全架构</Name>
+</Section>
+</Chapter>
+<Chapter item="y">
+<Name>本期项目设计方案</Name>
+<Section item="y">
+<Name>标准及规范</Name>
+</Section>
+<Section item="y">
+<Name>信息资源分类和数据库设计</Name>
+<Subsection item="y">
+<Name>信息（数据）资源规划</Name>
+</Subsection>
+<Subsection item="y">
+<Name>数据库建设内容</Name>
+</Subsection>
+<Subsection item="y">
+<Name>数据量测算</Name>
+</Subsection>
+<Subsection item="y">
+<Name>技术特征及数据库软件</Name>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>移动OA办公自动化系统</Name>
+<Subsection item="y">
+<Name>信息交换</Name>
+</Subsection>
+<Subsection item="y">
+<Name>4A管理</Name>
+</Subsection>
+<Subsection item="y">
+<Name>工作流</Name>
+</Subsection>
+<Subsection item="y">
+<Name>表单</Name>
+</Subsection>
+<Subsection item="y">
+<Name>报表</Name>
+</Subsection>
+<Subsection item="y">
+<Name>系统管理</Name>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>数据交换平台设计</Name>
+</Section>
+<Section item="y">
+<Name>数据处理和存储系统设计</Name>
+</Section>
+<Section item="y">
+<Name>终端系统设计</Name>
+</Section>
+<Section item="y">
+<Name>网络传输系统设计</Name>
+</Section>
+<Section item="y">
+<Name>安全体系设计</Name>
+</Section>
+<Section item="y">
+<Name>备份系统设计</Name>
+</Section>
+<Section item="y">
+<Name>运行维护方案设计</Name>
+<Subsection item="y">
+<Name>运维管理制度设计</Name>
+</Subsection>
+<Subsection item="y">
+<Name>运维管理流程</Name>
+</Subsection>
+<Subsection item="y">
+<Name>运维服务管理机构</Name>
+</Subsection>
+<Subsection item="y">
+<Name>运维队伍建设</Name>
+</Subsection>
+<Subsection item="y">
+<Name>运维技术服务平台</Name>
+</Subsection>
+<Subsection item="y">
+<Name>运维知识库系统</Name>
+</Subsection>
+<Subsection item="y">
+<Name>运行维护方式</Name>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>系统集成设计</Name>
+</Section>
+<Section item="y">
+<Name>系统配置及软硬件选型原则</Name>
+<Subsection item="y">
+<Name>主要软件选型原则</Name>
+</Subsection>
+<Subsection item="y">
+<Name>主要硬件选型原则</Name>
+</Subsection>
+<Subsection item="y">
+<Name>网络设备选型原则</Name>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>系统软硬件配置清单</Name>
+</Section>
+<Section item="y">
+<Name>系统软硬件部署方案</Name>
+</Section>
+<Section item="y">
+<Name>机房及配套工程设计</Name>
+</Section>
+<Section item="y">
+<Name>环保、消防、职业安全卫生和节能措施的设计</Name>
+<Subsection item="y">
+<Name>环境影响分析</Name>
+</Subsection>
+<Subsection item="y">
+<Name>消防措施</Name>
+</Subsection>
+<Subsection item="y">
+<Name>职业安全和卫生措施</Name>
+</Subsection>
+</Section>
+</Chapter>
+<Chapter item="y">
+<Name>项目实施与运行管理</Name>
+<Section item="y">
+<Name>领导和管理机构</Name>
+<Paragraph item="y">
+<Name>必要性</Name>
+<Paragraph>由于本项目涉及面广、难度大，需要整合多个部门的信息资源和流程，为加强对系统建设的统一领导，统一思想，明确责任，上下配合，形成合力，应该建立完善的项目领导机构和项目管理实施机构，各负其责，按时、高质量完成建设任务。本项目项目组织结构如下图所示。</Paragraph>
+</Paragraph>
+<Figure item="y"
+line0="{*Name*}"
+line1="\begin{figure}[htbp]"
+line2="\centering"
+line3="\includegraphics{*Src*}"
+line4="\caption{{*Name*}}"
+line5="\label{fig:{*Name*}}"
+line6="\end{figure}"
+icon="colors">
+<Name type="Text" ref="y">项目组织结构</Name>
+<Src type="Text">[scale=1]{res/项目组织结构.pdf}</Src>
+</Figure>
+<Paragraph-List item="y">
+<Name>各单位职能描述如下：</Name>
+<Paragraph>项目组织结构图中各单位职能描述如下：</Paragraph>
+<ListedParagraph item="y">
+<Name>项目领导小组</Name>
+<Paragraph>项目领导小组：由江西省交通运输厅信息化分管领导、厅机关处室、省公路管理局、省高管局、省道路运输管理局、省交通建设质量安全监督管理局、省地方海事局等单位的主管领导组成，负责制定本项目实施过程中的方针、政策；制定总体规划；关键环节的质量监督、重大问题的决策；监督并协调项目的实施进程；协调各方的资源，包括人力资源、设备资源及财力资源；并定期审核听取项目工作汇报，对项目存在的重大问题进行协调解决。</Paragraph>
+</ListedParagraph>
+<ListedParagraph item="y">
+<Name>项目管理办公室</Name>
+<Paragraph>江西省交通运输厅负责组建专门的项目管理办公室，由交通运输厅信息中心及业务处室的成员构成，负责人为厅信息中心主任，项目管理办公室是工程管理的办事机构，负责制定和落实项目计划，与相关单位联络和协商，以及工程实施的具体督导工作。</Paragraph>
+</ListedParagraph>
+<ListedParagraph item="y">
+<Name>专家顾问组</Name>
+<Paragraph>专家顾问组：特聘信息服务、通信技术、网络技术等相关领域的专家组成专家顾问组。专家顾问组要及时了解项目的进展情况，为项目技术方案提供技术咨询和业务指导；对项目中涉及的重大技术调整和变更提出咨询意见。</Paragraph>
+</ListedParagraph>
+<ListedParagraph item="y">
+<Name>技术支持组</Name>
+<Paragraph>技术支持组：由厅信息中心牵头组成技术支持组，负责技术方案的确定，跟踪项目建设进展，为工程建设实施提供技术咨询。</Paragraph>
+</ListedParagraph>
+<ListedParagraph item="y">
+<Name>工程监理单位</Name>
+<Paragraph>工程监理单位：招标确定工程监理单位，负责对工程承包商的工程实施行为进行监督和管理，包括工程质量、进度和资金使用情况等。</Paragraph>
+</ListedParagraph>
+<ListedParagraph item="y">
+<Name>项目实施单位</Name>
+<Paragraph>项目实施单位：本项目主要由江西省交通运输厅信息中心负责建设实施，省公路管理局、省高管局、省道路运输管理局、省交通建设质量安全监督管理局等单位共同协助。</Paragraph>
+</ListedParagraph>
+</Paragraph-List>
+</Section>
+<Section item="y">
+<Name>项目实施机构</Name>
+<Paragraph-List-All-in-One item="y"
+line0="{*Name*}"
+line1="{*Paragraph*}"
+line2="\begin{enumerate}[label=\arabic*.,start=1]"
+line3="{*Lists*}"
+line4="\end{enumerate}">
+<Name type="Text" ref="y">分别介绍实施机构</Name>
+<Paragraph type="Text" html="y" lines="30">本项目的实施机构如下：</Paragraph>
+<Lists type="Text" html="y" lines="30">\item 专家顾问组：特聘信息服务、通信技术、网络技术等相关领域的专家组成专家顾问组。专家顾问组要及时了解项目的进展情况，为项目技术方案提供技术咨询和业务指导；对项目中涉及的重大技术调整和变更提出咨询意见。
+\item 技术支持组：由厅信息中心牵头组成技术支持组，负责技术方案的确定，跟踪项目建设进展，为工程建设实施提供技术咨询。
+\item 工程监理单位：招标确定工程监理单位，负责对工程承包商的工程实施行为进行监督和管理，包括工程质量、进度和资金使用情况等。</Lists>
+</Paragraph-List-All-in-One>
+</Section>
+<Section item="y">
+<Name>运行维护机构</Name>
+<Paragraph-List-All-in-One item="y">
+<Name>维护任务</Name>
+<Paragraph>有效的运行维护是保证系统建成后能切实发挥效用的重要保障措施。本项目维护任务主要包括硬件平台维护、软件系统维护、数据维护等三方面。其中：</Paragraph>
+<Lists>\item 硬件平台的维护主要包括主机和存储设备的维护，以及相应的硬件配置和系统配置等内容。
+\item 软件系统的维护主要包括支撑软件、应用系统的安装、日常运行监测、简单故障排除等。
+\item 数据的维护指对后台数据库的维护，主要包括监视数据库的运行、数据一致性检查、磁盘空间检查、数据备份和恢复等。</Lists>
+</Paragraph-List-All-in-One>
+<Paragraph-List-All-in-One item="y">
+<Name>维护机构</Name>
+<Paragraph>本项目是一项较为复杂的系统工程，为确保各系统能够正常运行，江西省交通运输管理部门应建立三级运行维护机构。</Paragraph>
+<Lists>\item 在第一层面上，由省交通运输厅机关作为行政管理机构，负责系统运行维护的行业管理和协调。
+\item 在第二层面上，由厅信息中心作为本项目应用系统的主要运行维护单位，负责硬件及系统平台维护、应用软件维护和数据维护。
+\item 在第三层面上，由厅以及各专业局下设的各业务处室负责各自业务相关的数据更新工作。</Lists>
+</Paragraph-List-All-in-One>
+</Section>
+<Section item="y">
+<Name>核准的项目招标方案</Name>
+<Subsection item="y">
+<Name>招标范围</Name>
+</Subsection>
+<Subsection item="y">
+<Name>招标方式</Name>
+</Subsection>
+<Subsection item="y">
+<Name>招标组织形式</Name>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>实施进度与质量管理</Name>
+<Subsection item="y">
+<Name>实施进度管理</Name>
+</Subsection>
+<Subsection item="y">
+<Name>项目质量管理</Name>
+</Subsection>
+</Section>
+</Chapter>
+<Chapter item="y">
+<Name>人员配置与培训</Name>
+<Section item="y">
+<Name>人员配置计划</Name>
+</Section>
+<Section item="y">
+<Name>人员培训方案</Name>
+<Subsection item="y">
+<Name>管理员培训</Name>
+</Subsection>
+<Subsection item="y">
+<Name>操作用户培训</Name>
+</Subsection>
+<Subsection item="y">
+<Name>领导培训</Name>
+</Subsection>
+</Section>
+</Chapter>
+<Chapter item="y">
+<Name>项目实施进度</Name>
+<Section item="y">
+<Name>项目建设工期</Name>
+</Section>
+<Section item="y">
+<Name>实施进度计划</Name>
+</Section>
+</Chapter>
+<Chapter item="y">
+<Name>项目投资概算</Name>
+<Section item="y">
+<Name>概算依据</Name>
+<Paragraph-List-All-in-One item="y">
+<Name>依据文件列表</Name>
+<Paragraph>本项目投资概算依据以下文件编制：</Paragraph>
+<Lists>\item 中华人民共和国信息产业部，《电子建设工程概（预）算编制办法及计价依据》，2005年；
+\item 中华人民共和国信息产业部，《电子建设工程预算定额》，2005年；
+\item 中华人民共和国国家发展改革委员会、建设部，《工程勘察设计收费管理规定》，2002年；
+\item 中华人民共和国财政部，《基本建设财务管理规定》，2000年；
+\item 中华人民共和国国家发展改革委员会、建设部，《建设工程监理与相关服务收费管理规定》、《建设工程监理与相关服务收费标准》，2007年；
+\item 中华人民共和国国家计划委员会，《建设项目前期工作咨询收费暂行规定》，1999年；
+\item 中华人民共和国国家发展改革委员会，《招标代理服务费收费管理暂行办法》，2002年；
+\item 中国软件行业协会，《软件开发和服务项目价格构成及评估方法》，2006年； 
+\item 有关设备、系统厂家、数据录入公司报价；
+\item 交通行业相关信息系统工程建设的相关经验。</Lists>
+</Paragraph-List-All-in-One>
+</Section>
+<Section item="y">
+<Name>概算说明</Name>
+<Paragraph-List-All-in-One item="y">
+<Name>说明</Name>
+<Paragraph>对概算涉及的部分其它费用计算方法说明如下：</Paragraph>
+<Lists>\item 安装工程费依据依据《电子建设工程概（预）算编制办法及计价依据》（信息产业部，2005年）和《电子建设工程预算定额》（信息产业部，HYD41-2005）规定的设备定额查表计算汇总得出；
+\item 建设单位管理费依据财政部《基本建设财务管理规定》的收费标准取费；
+\item 工程监理费依据国家发展改革委、建设部《建设工程监理与相关服务收费管理规定》的收费标准取费；
+\item 联合试运转费率依据交通部《沿海港口建设工程概算预算编制规定》，按设备购置费的0.7%计取。
+\item 招标代理服务费依据国家计委《招标代理服务收费管理暂行办法》的相关规定计算；
+\item 生产职工培训费依据交通部《沿海港口建设工程概算预算编制规定》的收费标准，按每人2000元/人计取； 
+\item 前期工作费依据国家计委《建设项目前期工作咨询收费暂行规定》的收费标准取费；
+\item 设计费依据国家发展计划委员会和建设部《工程勘察设计收费标准》的相关规定计算；
+\item 初步设计审查费依据交通部《关于加强水运工程初步设计审查管理的通知》（交水发〔2006〕330号）的相关规定计取；
+10)	工程勘察费、物价上涨费不计。</Lists>
+</Paragraph-List-All-in-One>
+</Section>
+<Section item="y">
+<Name>初步设计概算书</Name>
+<Paragraph-List item="y">
+<Name>总概算结论</Name>
+<Paragraph>本项目工程总投资额为600万元，投资的各类费用分布情况如下：</Paragraph>
+<ListedParagraph item="y">
+<Name>软件部分</Name>
+<Paragraph>软件、中间件及CA数据认证中心的建设和服务费用共总896.75万元，占全部投资的72.15 %；</Paragraph>
+</ListedParagraph>
+<ListedParagraph item="y">
+<Name>硬件部分</Name>
+<Paragraph>硬件费用全由省厅云数据中心支撑，不列入本工程计费；</Paragraph>
+</ListedParagraph>
+<ListedParagraph item="y">
+<Name>其它部分</Name>
+<Paragraph>预留费用及其他费用346万元，占全部投资的27.85%。</Paragraph>
+</ListedParagraph>
+</Paragraph-List>
+<Subsection item="y">
+<Name>总概算表</Name>
+<Paragraph item="y">
+<Name>参见附录</Name>
+<Paragraph>参见\ref{appendix:总概算表} 总概算表</Paragraph>
+</Paragraph>
+</Subsection>
+<Subsection item="y">
+<Name>应用软件购置费用概算表</Name>
+</Subsection>
+<Subsection item="y">
+<Name>系统软件及硬件购置费用概算表</Name>
+</Subsection>
+<Subsection item="y">
+<Name>系统运行维护费用概算表</Name>
+</Subsection>
+<Subsection item="y">
+<Name>研究试验费用概算</Name>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>资金筹措及投资计划</Name>
+</Section>
+</Chapter>
+<Chapter item="y">
+<Name>风险及效益分析</Name>
+<Section item="y">
+<Name>风险分析及对策</Name>
+<Subsection item="y">
+<Name>风险识别</Name>
+</Subsection>
+<Subsection item="y">
+<Name>风险对策及管理</Name>
+</Subsection>
+</Section>
+<Section item="y">
+<Name>效益分析</Name>
+<Subsection item="y">
+<Name>经济效益分析</Name>
+</Subsection>
+<Subsection item="y">
+<Name>社会效益分析</Name>
+</Subsection>
+<Subsection item="y">
+<Name>项目综合评价指标分析</Name>
+</Subsection>
+</Section>
+</Chapter>
+<Appendix-List item="y"
+line0="{*Name*}"
+line1="\newpage"
+line2="\pagestyle{empty}\pagenumbering{gobble}"
+line3="\chapter*{{*Name*}}"
+line4="\addcontentsline{toc}{chapter}{{*Name*}}"
+line5="\label{chapter:{*Name*}}"
+line6="\renewcommand\thesection{{*Name*}\arabic{section}.}"
+line7="\setcounter{section}{0}"
+childtype="ListedAppendix"
+icon="folder_3">
+<Name type="Text" ref="y">附录</Name>
+<Appendix item="y"
+line0="{*Name*}"
+line1="\section{{*Name*}} \label{section:{*Name*}}"
+line2="{*DescendantOutput*}"
+line3="\newpage"
+icon="doc">
+<Name type="Text" ref="y">初步设计及概算编制依据</Name>
+<Paragraph-List-All-in-One item="y">
+<Name>本初步设计及概算依据以下文件编制：</Name>
+<Paragraph>本初步设计及概算依据以下文件编制：</Paragraph>
+<Lists>\item《交通电子政务建设总体方案》，交通部科教司，2003年；
+\item《国家电子政务工程建设项目管理暂行办法》，国家发展和改革委员会，2007年；
+\item《交通运输“十二五”发展规划》，交规划发〔2011〕191号，2011年；
+\item《中华人民共和国政府信息公开条例》，国务院，2007年；
+\item《江西省国民经济和社会发展第十二个五年规划纲要（2011-2015）》，江西省人民政府，2011年；
+\item《关于加强国家电子政务工程建设项目信息安全风险评估工作的通知》，国家发展和改革委员会，2008年）
+\item 《公路水路交通运输信息化“十二五”发展规划》，交通运输部综合规划司，2011年；
+\item《关于加快推行全省网上政务服务和电子监察系统建设的通知》，省政府办公厅 ，政办明电〔2011〕90号
+\item《关于启动交通科技信息资源共享平台推广工作的通知》，交通运输部办公厅，厅科技字[2010]198号。
+\item.《江西省交通运输信息化“十二五”发展规划》，江西省交通运输厅，2011年；
+\item《国家电子政务工程建设项目管理暂行办法（国发改〔2007〕55号）》；
+\item《电子政务标准化指南 第1部分：总则》；
+\item《电子政务标准化指南 第2部分：工程管理》；
+\item《电子政务标准化指南 第3部分：网络建设》；	
+\item《电子政务标准化指南 第4部分：信息共享》；
+\item《电子政务标准化指南 第5部分：支撑技术》；
+\item《电子政务标准化指南 第6部分：信息安全》；
+\item《电子政务系统总体设计要求》。
+\item《电子建设工程概(预)算编制办法及计价依据》
+\item《监理07年670号文件》</Lists>
+</Paragraph-List-All-in-One>
+</Appendix>
+<Appendix item="y">
+<Name>总概算表</Name>
+<Paragraph item="y">
+<Name>见Excel文档</Name>
+<Paragraph>装订时请用Excel文档打印页替换</Paragraph>
+</Paragraph>
+</Appendix>
+</Appendix-List>
+<Subsubsection item="n"
+line0="{*Name*}"
+line1="\subsubsection{{*Name*}} \label{subsubsection:{*Name*}}"
+icon="title-3">
+<Name type="Text" ref="y"></Name>
+</Subsubsection>
+<Part item="n"
+line0="{*Name*}"
+line1="\part{{*Name*}}"
+icon="folder_1">
+<Name type="Text" ref="y"></Name>
+</Part>
+<NA item="n"
+line0="{*Name*}">
+<Name type="Text" ref="y"></Name>
+</NA>
+</ROOT>
